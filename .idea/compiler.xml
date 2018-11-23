@@ -9,6 +9,7 @@
         <module name="account-email" />
         <module name="account-persist" />
         <module name="account-service" />
+        <module name="account-web" />
       </profile>
     </annotationProcessing>
   </component>

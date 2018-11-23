@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="accountService" class="com.zhaoyi.account.service.AccountServiceImpl">
+    <property name="storeService" ref="storeService"></property>
+    <property name="sendEmailService" ref="sendEmailService"></property>
+
+</bean>
+</beans>
